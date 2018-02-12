@@ -52,7 +52,7 @@ const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(1000);  
 
 const uint64_t DIFFICULTY_TARGET                             = 90; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
-const size_t   DIFFICULTY_WINDOW                             = 36; // blocks
+const size_t   DIFFICULTY_WINDOW                             = 17; // blocks
 const size_t   DIFFICULTY_CUT                                = 0;  // 60; timestamps to cut after sorting
 const size_t   DIFFICULTY_LAG                                = 0;  // 15; !!!
 static_assert(2 * DIFFICULTY_CUT <= DIFFICULTY_WINDOW - 2, "Bad DIFFICULTY_WINDOW or DIFFICULTY_CUT");
