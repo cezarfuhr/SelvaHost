@@ -126,6 +126,7 @@ struct CheckpointData {
 
 const CheckpointData CHECKPOINTS[] = {
 //	{ 5000000, "c4b96c8c66c44aa9aaed5a37e05754efc895ef97be19ac0775d4bea9cdef19a2" }
+	{ 50000000, "c4b96c8c66c44aa9aaed5a37e05754efc895ef97be19ac0775d4bea9cdef19a2" } //alterado para compilar no Windows
 };
 
 
